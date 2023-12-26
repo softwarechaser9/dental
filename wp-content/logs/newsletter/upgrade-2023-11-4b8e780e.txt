@@ -1,0 +1,33 @@
+20-11-2023 06:45:45 - INFO  - 8.0.4 - 41.6 MB/256 MB - admin > Start upgrade from 0.0.0
+20-11-2023 06:45:45 - INFO  - 8.0.4 - 42.0 MB/256 MB - admin > Array
+(
+    [`wpvx_newsletter_emails`] => Created table `wpvx_newsletter_emails`
+)
+
+20-11-2023 06:45:45 - INFO  - 8.0.4 - 42.0 MB/256 MB - admin > Array
+(
+    [`wpvx_newsletter_sent`] => Created table `wpvx_newsletter_sent`
+)
+
+20-11-2023 06:45:45 - INFO  - 8.0.4 - 42.0 MB/256 MB - admin > Array
+(
+    [`wpvx_newsletter`] => Created table `wpvx_newsletter`
+)
+
+20-11-2023 06:45:45 - INFO  - 8.0.4 - 42.0 MB/256 MB - admin > Array
+(
+    [`wpvx_newsletter_user_logs`] => Created table `wpvx_newsletter_user_logs`
+)
+
+20-11-2023 06:45:45 - INFO  - 8.0.4 - 42.0 MB/256 MB - admin > Array
+(
+    [`wpvx_newsletter_user_meta`] => Created table `wpvx_newsletter_user_meta`
+)
+
+20-11-2023 06:45:45 - INFO  - 8.0.4 - 42.0 MB/256 MB - admin > Array
+(
+    [`wpvx_newsletter_stats`] => Created table `wpvx_newsletter_stats`
+)
+
+20-11-2023 06:45:45 - INFO  - 8.0.4 - 42.0 MB/256 MB - admin > Backing up options of 0.0.0
+20-11-2023 06:45:45 - INFO  - 8.0.4 - 42.0 MB/256 MB - admin > End

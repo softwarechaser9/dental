@@ -1,0 +1,62 @@
+<?php
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package bdrf
+ */
+$blur_image = get_template_directory_uri() . '/assets/images/static/blur.jpg';
+?>
+
+
+
+<section class="Footer pt100 pb100 Loader">
+    <img style="z-index: 1" class=" modify-img "
+         data-image-small="<?= get_template_directory_uri() . '/assets/images/static/footer.jpg'; ?>"
+         data-image-large="<?= get_template_directory_uri() . '/assets/images/static/footer.jpg'; ?>"
+         data-image-standard="<?= get_template_directory_uri() . '/assets/images/static/footer.jpg'; ?>"
+         data-src="" src="<?= get_template_directory_uri() . '/assets/images/static/footer.jpg'; ?>" alt=""><!--1366x550 -->
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-5 Footer__top-left">
+                <img src="<?= get_template_directory_uri() . '/assets/images/static/logo.svg'; ?>" alt="">
+                <p>HOTLINE: <a href="tel:16760">16760</a></p>
+                <p>WHATSAPP: <a href="https://api.whatsapp.com/send/?phone=%2B8801708080822&text&type=phone_number&app_absent=0" target="_blank">+880 1708-080822</a> &nbsp; </p>
+                <p>EMAIL: <a href="mailto:hello@bdrfbd.com">hello@bdrfbd.com</a></p>
+            </div>
+
+
+            <div class="col-md-7 Footer__top-right">
+
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+
+        <div class="row">
+            <div class="Footer__social col-md-12">
+                <img class="logo_rehab" src="<?= get_template_directory_uri() . "/assets/images/static/rehab.jpeg"; ?>" alt="">
+
+
+            </div>
+
+            <div class="Footer__copyright col-md-12">
+                <p>© <?= date("Y"); ?> Edison Real Estate. All Rights Reserved. <a href="http://dcastalia.com/">Designed
+                        &amp; Developed by Dcastalia</a></p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+
+<?php wp_footer(); ?>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.514" height="61.433" viewBox="0 0 47.514 61.433">
+  <g id="Group_1877" data-name="Group 1877" transform="translate(-130.243 -2359.284)">
+    <g id="certification" transform="translate(72.243 2359.284)">
+      <path id="Path_2014" data-name="Path 2014" d="M176,64h11.519v1.44H176Z" transform="translate(-103.842 -56.321)"/>
+      <path id="Path_2015" data-name="Path 2015" d="M176,96h7.679v1.44H176Z" transform="translate(-103.842 -84.481)"/>
+      <path id="Path_2016" data-name="Path 2016" d="M176,144h26.877v1.44H176Z" transform="translate(-103.842 -126.722)"/>
+      <path id="Path_2017" data-name="Path 2017" d="M176,176h26.877v1.44H176Z" transform="translate(-103.842 -154.882)"/>
+      <path id="Path_2018" data-name="Path 2018" d="M176,240h26.877v1.44H176Z" transform="translate(-103.842 -211.203)"/>
+      <path id="Path_2019" data-name="Path 2019" d="M208,272h19.2v1.44H208Z" transform="translate(-132.002 -239.364)"/>
+      <path id="Path_2020" data-name="Path 2020" d="M176,208h26.877v1.44H176Z" transform="translate(-103.842 -183.043)"/>
+      <path id="Path_2021" data-name="Path 2021" d="M304,320h11.519v1.44H304Z" transform="translate(-216.483 -281.604)"/>
+      <path id="Path_2022" data-name="Path 2022" d="M336,352h7.679v1.44H336Z" transform="translate(-244.644 -309.765)"/>
+      <path id="Path_2023" data-name="Path 2023" d="M94.559,313.119A4.559,4.559,0,1,0,90,308.559,4.565,4.565,0,0,0,94.559,313.119Zm0-7.679a3.12,3.12,0,1,1-3.12,3.12A3.123,3.123,0,0,1,94.559,305.44Z" transform="translate(-28.16 -267.524)"/>
+    </g>
+    <g id="Group_1876" data-name="Group 1876">
+      <circle id="Ellipse_77" data-name="Ellipse 77" cx="8" cy="8" r="8" transform="translate(131 2392)" fill="#ffa64d"/>
+      <g id="Group_1875" data-name="Group 1875" transform="translate(72.243 2359.284)">
+        <path id="Path_2013" data-name="Path 2013" d="M105.514,10.021,95.494,0H65.679V32.669a8.392,8.392,0,0,0-4.8,14.689V61.433h1.978L66.4,57.891l3.541,3.541h1.978V55.194h33.6Zm-9.6-7.563L103.057,9.6H95.916ZM59.44,41.035A6.959,6.959,0,1,1,66.4,47.994,6.967,6.967,0,0,1,59.44,41.035ZM66.4,55.855l-4.08,4.08V48.373a8.374,8.374,0,0,0,8.159,0V59.935Zm5.519-2.1v-6.4a8.392,8.392,0,0,0-4.8-14.689V1.44H94.476v9.6h9.6V53.754Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,906 @@
+//default
+@media (min-width: 1450px) {
+  .container {
+    width: 1366px;
+    margin: auto;
+  }
+
+  .Project__slider-wrap__single__inner {
+    padding-top: 127.16%;
+  }
+}
+
+
+@media(max-width: 768px) {
+  .mbp45 {
+    padding: 45px 0 !important;
+  }
+
+
+  .ListingFour__single__left {
+    padding-right: 15px;
+    padding-left: 15px;
+
+    a {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .AboutText {
+    .Flex {
+      flex-wrap: wrap;
+    }
+
+    .col-md-6 {
+      width: 100%;
+    }
+
+    .MissionVision__single__left {
+      margin-top: 30px;
+    }
+  }
+
+  .AboutMissionVision {
+    .Flex {
+      flex-wrap: wrap;
+    }
+
+    .col-sm-6 {
+      width: 100%;
+    }
+  }
+  .ChairmanMessageText {
+    .Flex {
+      flex-wrap: wrap;
+    }
+
+    .col-md-5, .col-md-7 {
+      width: 100%;
+    }
+
+    .ChairmanMessageText__left__logo {
+      margin: auto;
+    }
+  }
+  .ChairmanMessageText__right {
+    padding: 80px 15px 80px 50px;
+  }
+  .Project-detail-banner {
+    height: auto;
+  }
+  .asInterior {
+    .col-md-6 {
+      width: 100%;
+    }
+
+    .MissionVision__single__right {
+      padding-left: 20px;
+    }
+  }
+
+  .asContactForm {
+    .homeForm__left {
+      width: 50%;
+    }
+  }
+  .innerBanner {
+    padding-top: 54.28%;
+  }
+
+  .Location_map__map {
+    width: 100%;
+  }
+
+}
+
+// ------------- 768px
+
+@media(max-width: 767px) {
+  .pt75, .pt90, .pt95, .pt60, .pt100, .pt80 {
+    padding-top: 60px !important;
+  }
+  .pb75, .pb90, .pb95, .pb60, .pb100, .pb80 {
+    padding-bottom: 60px !important;
+  }
+  .Title {
+    font-size: 26px;
+    line-height: 33px;
+  }
+
+  .container, .container-fluid,
+  [class*="col-md-"], [class*="col-sm-"] {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .row {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 11px;
+  }
+
+
+  .Project__slider-wrap {
+    padding-left: 13px;
+    padding-right: 14px;
+
+    &__single {
+      padding: 0 7px;
+      margin-bottom: 14px;
+
+      &__inner__content__slide {
+        margin-bottom: 0;
+
+        h3 {
+          font-size: 18px;
+          line-height: 20px;
+          font-weight: bold;
+        }
+
+        h4 {
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+  .Project__slider-wrap__single__inner__content {
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+
+
+  }
+
+  .Project__slider-wrap__single__inner {
+    padding-top: 138.89%
+  }
+  .Project .mobile-view {
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    bottom: 0;
+  }
+
+
+  .Project-detail-banner {
+    height: auto;
+
+    &__left__top {
+      height: 400px;
+
+      &__slider__single {
+        height: 400px;
+      }
+    }
+  }
+  .Project-detail-banner__left__bottom {
+    display: none;
+  }
+
+
+  .Project-detail-banner__left {
+    .slick-dots {
+      display: flex;
+      justify-content: flex-end;
+      z-index: 5;
+      right: -10px;
+      text-align: right;
+      bottom: 39px;
+      padding-right: 20px;
+
+      li {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+        display: flex;
+        background: transparent;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+
+        &:nth-of-type(n+4) {
+          display: none;
+        }
+
+        button {
+          font-size: 0;
+          line-height: 0;
+          width: 8px;
+          height: 8px;
+          padding: 0;
+          cursor: pointer;
+          color: transparent;
+          border: 0;
+          outline: none;
+          background: #FFF;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          opacity: 0.4;
+
+          &:before {
+            display: none;
+          }
+        }
+
+        &.slick-active {
+          background: rgba(255, 255, 255, 0.3);
+          //border: 1px solid #FFF;
+
+          button {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .slick-dotted.slick-slider {
+      margin-bottom: 0;
+    }
+
+    .MobileGallery {
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #ffffff;
+      position: absolute;
+      bottom: 40px;
+      left: 20px;
+      z-index: 6;
+    }
+
+  }
+
+  .Project-detail-banner__left {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .Project-detail-banner__right__overview {
+    ul.Bredcum {
+      position: relative;
+      z-index: 2;
+      margin-bottom: 10px;
+    }
+
+    .Overview {
+      margin-bottom: 50px;
+    }
+
+    .Progress {
+      padding: 50px 20px 100px 20px;
+      margin-left: -20px;
+      margin-right: -20px;
+      position: relative;
+    }
+
+    .Progress__bar__start {
+      left: 19px;
+      z-index: 1;
+      //bottom: 60px;
+
+      //span {
+      //  height: 20px;
+      //  width: 20px;
+      //}
+    }
+
+    .Progress__bar__end {
+      right: 20px;
+      //bottom: 50px;
+
+      //span {
+      //  height: 20px;
+      //  width: 20px;
+      //}
+    }
+
+    .Progress__bar__line span:nth-of-type(2) {
+      //height: 20px;
+      //width: 20px;
+
+      &:after {
+        //height: 30px;
+        //width: 30px;
+      }
+    }
+
+    .Specification {
+      padding: 60px 0;
+
+      .table > tbody > tr > td {
+        padding-left: 0 !important;
+      }
+    }
+  }
+
+
+  .TextSlider {
+    padding-left: 0px;
+
+    .slick-dots {
+      bottom: -48px;
+    }
+  }
+  .TextSlider__slide-wrap__single {
+    padding-right: 0;
+  }
+
+  .asFeature {
+
+    .Project__title {
+      margin-bottom: 32px;
+    }
+
+    .slick-dots {
+      display: flex;
+      justify-content: center;
+      z-index: 5;
+      right: -10px;
+      text-align: center;
+      bottom: -35px;
+
+      li {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+        display: flex;
+        background: transparent;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+
+        &:nth-of-type(n+4) {
+          display: none;
+        }
+
+        button {
+          font-size: 0;
+          line-height: 0;
+          width: 8px;
+          height: 8px;
+          padding: 0;
+          cursor: pointer;
+          color: transparent;
+          border: 0;
+          outline: none;
+          background: #1A1818;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          opacity: 0.4;
+
+          &:before {
+            display: none;
+          }
+        }
+
+        &.slick-active {
+          //background: rgba(255, 255, 255, 0.3);
+          border: 1px solid #1A1818;
+
+          button {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .Projects-nav {
+      display: none;
+    }
+  }
+
+  .MissionVision__single__right {
+    margin-top: 35px;
+
+    .Title {
+      margin-bottom: 18px;
+    }
+  }
+  .Projects__title {
+    margin-bottom: 30px;
+  }
+  .Location_map {
+    .Title {
+      margin-bottom: 20px;
+    }
+
+    #map {
+      margin-top: 20px;
+      height: 350px;
+    }
+  }
+  .Projects__slider-wrap__single__inner {
+    position: relative;
+    padding-top: 120.32%;
+  }
+
+  .asContactMap {
+    padding-left: 0;
+  }
+  .innerBanner {
+    padding-top: 0;
+    height: 400px;
+  }
+
+
+  .homeForm {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    &__left__inner__content__count .single-count {
+      p {
+        font-size: 40px;
+      }
+
+      h4 {
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+    }
+
+    .homeForm__right {
+      margin-top: 30px;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+
+      &__form {
+        padding: 30px 20px;
+      }
+    }
+
+    .dcBtn {
+      margin-top: 10px;
+      height: 40px;
+      line-height: 40px;
+      width: 174px;
+    }
+  }
+
+  .asContactMap {
+    padding-bottom: 60px;
+
+    .Location_map__map {
+      margin-top: 36px;
+    }
+  }
+
+  .innerBanner .container h1 {
+    font-size: 28px;
+    left: 20px;
+    bottom: 30px;
+  }
+
+
+  .ListingFour {
+    padding-top: 60px;
+
+    &__single__left {
+      padding: 40px 0;
+
+      h2 {
+        font-size: 20px;
+        margin-bottom: 0;
+      }
+
+      p {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 15px;
+      }
+    }
+  }
+
+
+  .landowner-from form {
+    .form-group {
+      width: 100% !important;
+      margin-bottom: 20px;
+      margin-right: 0 !important;
+    }
+
+    .formInline {
+      flex-wrap: wrap;
+
+    }
+
+    .submit-btn {
+      width: 100%;
+    }
+  }
+
+
+  .AboutText {
+    .MissionVision__single__right {
+      margin-top: 0;
+
+      .Title {
+        br {
+          display: none;
+        }
+      }
+
+      .dcBtn {
+        margin-top: 35px;
+      }
+    }
+
+    .MissionVision__single__left {
+      margin-top: 30px;
+    }
+  }
+
+
+  .AboutMissionVision {
+    .col-sm-6 {
+      width: 100%;
+
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+
+    .AboutMissionVision-text {
+      padding: 100px 30px;
+
+      p {
+        font-size: 26px;
+        line-height: 26px;
+      }
+
+    }
+
+  }
+
+  .ChairmanMessage {
+    .subTitle {
+      margin-bottom: 10px;
+    }
+
+    .Flex {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .InMobile {
+      margin-bottom: 30px;
+    }
+
+    .MissionVision__single__right {
+      .subTitle, .Title {
+        display: none;
+      }
+
+      .dcBtn {
+        margin-top: 35px;
+      }
+    }
+  }
+
+  .ChairmanMessageText__left {
+    height: 400px;
+  }
+  .ChairmanMessageText__right {
+    padding: 60px 20px;
+  }
+
+
+  .timeline {
+    //height: 70vh;
+    height: 500px;
+
+    .timeline__slider-bg__item__content {
+      left: 20px;
+      right: 20px;
+      width: auto;
+      height: auto;
+      top: 40px;
+
+      &__zoom {
+        padding: 30px 20px;
+
+        h1 {
+          font-size: 25px;
+          line-height: 35px;
+        }
+      }
+    }
+
+  }
+
+
+  .asTeam {
+    .Project__title {
+      margin-bottom: 32px;
+    }
+
+    .Project-nav {
+      display: none;
+    }
+
+    .slick-dots {
+      display: flex;
+      justify-content: center;
+      z-index: 5;
+      right: -10px;
+      text-align: center;
+      bottom: -35px;
+
+      li {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+        display: flex;
+        background: transparent;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+
+        //&:nth-of-type(n+4) {
+        //  display: none;
+        //}
+
+        button {
+          font-size: 0;
+          line-height: 0;
+          width: 8px;
+          height: 8px;
+          padding: 0;
+          cursor: pointer;
+          color: transparent;
+          border: 0;
+          outline: none;
+          background: #1A1818;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          opacity: 0.4;
+
+          &:before {
+            display: none;
+          }
+        }
+
+        &.slick-active {
+          //background: rgba(255, 255, 255, 0.3);
+          border: 1px solid #1A1818;
+
+          button {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+
+
+  .asProductNdMap {
+    .Location_map__map {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+
+    #map {
+      margin-top: 0;
+    }
+
+  }
+
+
+  .CareerPost__wrap {
+    .col-md-4 {
+      width: 100%;
+
+      &:nth-last-of-type(1) {
+        .CareerPost__wrap__single {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .asProjectList {
+    .Products__short {
+      padding: 0 !important;
+      margin-bottom: 30px;
+
+      &:after {
+        content: '';
+        display: block;
+        overflow: hidden;
+        clear: both;
+      }
+
+      .col-md-4 {
+        margin-bottom: 20px;
+      }
+    }
+
+    .Project__slider-wrap__single {
+      padding: 0 7px !important;
+      margin-bottom: 14px;
+    }
+
+    .Project__slider-wrap__single__inner__content a {
+      width: 120px;
+      border-color: #FFFFFF;
+      color: #ffffff;
+      height: 38px;
+      margin-top: 20px;
+      line-height: 38px;
+      font-size: 13px;
+    }
+
+    .Project__slider-wrap__single:hover .Project__slider-wrap__single__inner__content h4 {
+      margin-bottom: 0px !important;
+    }
+
+
+  }
+
+  .AboutMissionVision__values {
+    margin-top: 30px;
+
+    &__wrap {
+      padding: 50px 30px;
+
+      &__inner {
+        flex-wrap: wrap;
+
+        &__single {
+          width: 100%;
+          margin-bottom: 30px;
+
+          &:nth-last-of-type(1) {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+
+  .homeForm__left {
+    margin-left: 0;
+  }
+  .careerModal .modalClose {
+    right: 15px;
+  }
+  .careerModal .modal-content .Title {
+    padding-right: 20px;
+  }
+
+
+  .Project__slider-wrap__single__inner:after {
+    opacity: 1;
+  }
+
+  .asLandOwnerText {
+    .ListingFour__single {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  .asTeam {
+    .Project__slider-wrap__single {
+      margin-bottom: 20px;
+    }
+
+    .dcBtn {
+      margin-top: 40px;
+      width: 100%;
+    }
+  }
+
+  .asContactForm .homeForm__left {
+    width: 100%;
+  }
+
+  .asTeam .asTeamList {
+    padding-left: 0;
+    padding-right: 0;
+
+    .Project__slider-wrap__single {
+      margin-bottom: 20px;
+    }
+  }
+  .ChairmanMessageText__left__logo img {
+    max-width: 100%;
+  }
+  .ChairmanMessageText__right {
+    p {
+      word-break: break-all;
+    }
+  }
+  .MissionVision__single__left {
+    margin-top: 0;
+  }
+
+  .timeline__slider-bg__item, .timeline__slider-bg__item__bg-zoom {
+    height: 500px;
+  }
+  .fully-wrap {
+    .Progress__bar {
+      width: calc(100% - 40px);
+    }
+  }
+
+  .Project-detail-banner__right__overview .Progress__bar__end.fully {
+    right: 25px;
+  }
+
+  .Project-detail-banner__right__overview .Specification table {
+    margin-bottom: 0;
+  }
+  .asFeature .slick-dots li:nth-of-type(n+4) {
+    display: inline-flex;
+  }
+
+  .ourValue {
+    .new_timeLine {
+      display: flex;
+      flex-direction: column;
+
+      .timeLineSingle {
+        position: relative;
+        min-height: 200px;
+        float: unset !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center !important;
+        padding: 0;
+
+        .digit{
+          position: relative;
+          right: unset !important;
+          left: unset !important;
+          &:before{
+            display: none;
+          }
+        }
+        .content{
+          margin: 0 !important;
+
+        }
+      }
+    }
+  }
+}
+
+//--------------------767px
+
+
+
+
+
+
